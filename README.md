@@ -19,3 +19,9 @@ npm run build
 docker build -t simple-chat .
 docker run -p 8080:80 simple-chat
 ```
+
+## Deployment
+
+```bash
+kubectl apply -f deployment.yaml
+```

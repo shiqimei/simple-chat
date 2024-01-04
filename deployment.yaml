@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-chat-deployment
+  labels:
+    app: simple-chat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-chat
+  template:
+    metadata:
+      labels:
+        app: simple-chat
+    spec:
+      containers:
+      - name: simple-chat-container
+        image: 544018208436.dkr.ecr.us-west-1.amazonaws.com/simple-chat:latest
+        ports:
+        - containerPort: 80
