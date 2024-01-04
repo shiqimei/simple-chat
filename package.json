@@ -1,5 +1,6 @@
 {
     "name": "simple-chat",
+    "description": "@mlc-ai/web-llm simple chat with vite as the bundler.",
     "version": "0.1.0",
     "scripts": {
         "dev": "cp src/gh-config.js src/app-config.js && vite src",
