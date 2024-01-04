@@ -1,0 +1,16 @@
+{
+    "name": "simple-chat",
+    "version": "0.1.0",
+    "scripts": {
+        "dev": "cp src/gh-config.js src/app-config.js && vite src",
+        "start": "npm run dev",
+        "build": "cp src/gh-config.js src/app-config.js && vite build src --outDir ../dist"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.5",
+        "vite": "^5.0.10"
+    },
+    "dependencies": {
+        "@mlc-ai/web-llm": "npm:@askcodebase/web-llm@0.2.14"
+    }
+}
