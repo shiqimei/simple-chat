@@ -1,8 +1,9 @@
 # SimpleChat
 
-This folder provides a complete implementation of a simple
-chat app based on WebLLM. To try it out, you can do the following steps
-under this folder
+This is a simple chat app based on WebLLM. To try it out, you can do the following steps
+under this folder.
+
+![](./assets/preview.png)
 
 ## Run in local
 
