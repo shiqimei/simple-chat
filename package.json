@@ -13,5 +13,8 @@
     },
     "dependencies": {
         "@mlc-ai/web-llm": "npm:@askcodebase/web-llm@0.2.14"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "^4.9.2"
     }
 }
