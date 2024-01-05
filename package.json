@@ -5,7 +5,8 @@
     "scripts": {
         "dev": "cp src/gh-config.js src/app-config.js && vite src",
         "start": "npm run dev",
-        "build": "cp src/gh-config.js src/app-config.js && vite build src --outDir ../dist"
+        "build": "cp src/gh-config.js src/app-config.js && vite build src --outDir ../dist",
+        "deploy": "kubectl apply -f deployment.yaml"
     },
     "devDependencies": {
         "typescript": "^4.9.5",

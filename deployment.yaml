@@ -19,3 +19,18 @@ spec:
         image: 544018208436.dkr.ecr.us-west-1.amazonaws.com/simple-chat:latest
         ports:
         - containerPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-chat-service
+spec:
+  selector:
+    app: simple-chat
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
