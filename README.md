@@ -1,7 +1,7 @@
 # SimpleChat
 
 This is a simple chat app based on WebLLM. To try it out, you can do the following steps
-under this folder.
+under this folder. Demo: [https://playground.cascade.chat](https://playground.cascade.chat)
 
 ![](./assets/preview.png)
 
